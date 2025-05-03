@@ -46,6 +46,5 @@ public class MergeTwoSortedArrays {
         a2.add(1);
         a2.add(2);
         ArrayList<Integer> a3 = mergeArrays(a1, a2);
-        System.out.println(a3);
     }
 }
