@@ -1,3 +1,4 @@
+package array;
 public class FindMaxSumSubArray {
     public static int findMaxSumSubArray(int[] nums) {
         if (nums.length == 0) {

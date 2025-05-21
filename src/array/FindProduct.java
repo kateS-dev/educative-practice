@@ -1,3 +1,4 @@
+package array;
 import java.util.Arrays;
 
 public class FindProduct {
@@ -9,7 +10,7 @@ public class FindProduct {
     Write an algorithm that runs in O(n) time without using
     the division operation.*/
 
-    public static int[] findProduct(int arr[]) {
+    public static int[] findProduct(int[] arr) {
         int len = arr.length;
         int[] preRes = new int[len];
         int tmp = 1;

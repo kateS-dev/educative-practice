@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eccf0924-b723-4f09-bcd6-5805a477ca78" name="Changes" comment="feat: add a file" />
+    <list default="true" id="eccf0924-b723-4f09-bcd6-5805a477ca78" name="Changes" comment="feat: need check the end point more carefully">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2wb6MJI4ywHMJZ9Cfa3zQuMC4LK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,15 +33,51 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FindFirstUnique.executor": "Run",
+    "Application.FindMaxSumSubArray.executor": "Run",
+    "Application.FindProduct.executor": "Run",
+    "Application.FindSecondMaximum.executor": "Run",
+    "Application.FindTwoNumbersThatAddUpToK.executor": "Run",
     "Application.MergeTwoSortedArrays.executor": "Run",
+    "Application.Rearrange.executor": "Debug",
+    "Application.RearrangeArray.executor": "Run",
+    "Application.RightRotate.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="MergeTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeTwoSortedArrays" />
+  <component name="RunManager" selected="Application.FindMaxSumSubArray">
+    <configuration name="FindMaxSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindMaxSumSubArray" />
+      <module name="exerciseForEducative" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindSecondMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindSecondMaximum" />
+      <module name="exerciseForEducative" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Rearrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rearrange" />
+      <module name="exerciseForEducative" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RearrangeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RearrangeArray" />
+      <module name="exerciseForEducative" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RightRotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RightRotate" />
       <module name="exerciseForEducative" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -47,7 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeTwoSortedArrays" />
+        <item itemvalue="Application.FindMaxSumSubArray" />
+        <item itemvalue="Application.RearrangeArray" />
+        <item itemvalue="Application.Rearrange" />
+        <item itemvalue="Application.RightRotate" />
+        <item itemvalue="Application.FindSecondMaximum" />
       </list>
     </recent_temporary>
   </component>
@@ -68,12 +110,109 @@
       <option name="project" value="LOCAL" />
       <updated>1746302157451</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: add a file">
+      <option name="closed" value="true" />
+      <created>1746302667899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746302667899</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add a file">
+      <option name="closed" value="true" />
+      <created>1746302855022</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746302855022</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: fixed findTwoNumbers">
+      <option name="closed" value="true" />
+      <created>1746820830385</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746820830385</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add FindProduct.java">
+      <option name="closed" value="true" />
+      <created>1746892605249</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746892605249</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add FindMinimumValue.java">
+      <option name="closed" value="true" />
+      <created>1747084429088</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747084429088</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add FindFirstUnique.java">
+      <option name="closed" value="true" />
+      <created>1747087260449</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747087260449</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add FindSecondMaximum.java">
+      <option name="closed" value="true" />
+      <created>1747406265400</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747406265400</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add RightRotate.java">
+      <option name="closed" value="true" />
+      <created>1747409405557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747409405557</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: add Rearrange.java">
+      <option name="closed" value="true" />
+      <created>1747495145731</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747495145731</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add RearrangeArray.java">
+      <option name="closed" value="true" />
+      <created>1747506370873</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747506370873</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: need check the end point more carefully">
+      <option name="closed" value="true" />
+      <created>1747511282009</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747511282009</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add a file" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add a file" />
+    <MESSAGE value="feat: fixed findTwoNumbers" />
+    <MESSAGE value="feat: add FindProduct.java" />
+    <MESSAGE value="feat: add FindMinimumValue.java" />
+    <MESSAGE value="feat: add FindFirstUnique.java" />
+    <MESSAGE value="feat: add FindSecondMaximum.java" />
+    <MESSAGE value="feat: add RightRotate.java" />
+    <MESSAGE value="feat: add Rearrange.java" />
+    <MESSAGE value="feat: add RearrangeArray.java" />
+    <MESSAGE value="feat: need check the end point more carefully" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: need check the end point more carefully" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -122,6 +261,46 @@
           <url>file://$PROJECT_DIR$/src/MergeTwoSortedArrays.java</url>
           <line>20</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RightRotate.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RightRotate.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RightRotate.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RightRotate.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RightRotate.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RightRotate.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RightRotate.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RearrangeArray.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/MergeTwoSortedArrays.java</url>

@@ -1,13 +1,14 @@
+package array;
 import java.util.ArrayList;
 
 public class MergeTwoSortedArrays {
     public static ArrayList<Integer> mergeArrays(ArrayList<Integer> nums1, ArrayList<Integer> nums2) {
         ArrayList<Integer> res = new ArrayList<>();
-        if (nums1.size() == 0) {
+        if (nums1.isEmpty()) {
             return nums2;
         }
 
-        if (nums2.size() == 0) {
+        if (nums2.isEmpty()) {
             return nums1;
         }
 
@@ -45,6 +46,8 @@ public class MergeTwoSortedArrays {
         a2.add(0);
         a2.add(1);
         a2.add(2);
+
         ArrayList<Integer> a3 = mergeArrays(a1, a2);
+        System.out.println(a3);
     }
 }
