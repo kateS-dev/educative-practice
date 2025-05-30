@@ -1,7 +1,5 @@
 package linkedlist;
 
-import java.util.LinkedList;
-
 class LinkedListNode<T> {
      T data;
      LinkedListNode<T> next;
@@ -22,6 +20,28 @@ public class SearchNode {
 
         System.out.println("null");
     }
+
+
+    // can use recursive method
+    /*public static boolean searchNode(LinkedListNode<Integer> head, int value) {
+        LinkedListNode<Integer> current = head;
+        return searchRecursive(current, value);
+    }
+
+    private static boolean searchRecursive(LinkedListNode<Integer> node, int value) {
+        // Base case
+        if (node == null) {
+            return false;  // Value not found
+        }
+
+        // Check if the node's data matches our value
+        if (node.data == value) {
+            return true;  // Value found
+        }
+
+        // Recursive call to next node in the list
+        return searchRecursive(node.next, value);
+    }*/
 
     public static boolean searchNode(LinkedListNode <Integer> head, int value) {
         LinkedListNode<Integer> current = head;
