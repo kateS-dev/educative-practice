@@ -20,25 +20,57 @@ public class DeleteByValue {
         System.out.println("null");
     }
 
+    // new method from educative
+    /*
+        public static boolean deleteByValue(LinkedListNode <Integer> head, int value) {
+            boolean deleted = false;
 
+            LinkedListNode <Integer> current = head;
+            LinkedListNode <Integer> previous = null;
+            // Check if the value to delete is in the head node
+            if (current.data == value) {
+                head = head.next;
+                deleted = true;
+                return deleted;
+            }
+
+            // Traverse the linked list to find the node with the given value
+            while (current != null) {
+                if (value == current.data) { // If the value is found
+                    previous.next = current.next;
+                    current.next = null;
+                    deleted = true;
+                    break;
+                }
+                previous = current;
+                current = current.next;
+            }
+            return deleted;
+        }
+    */
+
+
+
+    // updated and followed with the sample answer
     private static boolean deleteByValue(LinkedListNode <Integer> head, int value) {
         LinkedListNode<Integer> current = head;
+        LinkedListNode<Integer> previosu = null;
+
+        // handle the first one is target deleted item
+        if (current.data == value) {
+            current.data = null;
+            return true;
+        }
+
+        // handle the others
         while (current != null) {
-            // handle the first one is target deleted item
             if (current.data == value) {
-                current.data = null;
+                previosu.next = current.next;
+                current.next = null;
                 return true;
             }
 
-            // handle the others
-            if (current.next != null) {
-                LinkedListNode<Integer> next = current.next;
-                if (next.data == value) {
-                    current.next = next.next;
-                    return true;
-                }
-            }
-
+            previosu = current;
             current = current.next;
         }
         return false;
