@@ -18,19 +18,9 @@ public class FindMiddle {
         while (slow != null && fast != null && fast.next != null) {
             fast = fast.next.next;
             slow = slow.next;
-
-            if (fast == null) {
-                //handle even case
-                return slow;
-            }
         };
 
-        //handle odd case
-        if (slow != null) {
-            return slow;
-        }
-
-        return new LinkedListNode<Integer>(-1);
+        return slow;
     }
 
     public static void printList(LinkedListNode<Integer> head) {
