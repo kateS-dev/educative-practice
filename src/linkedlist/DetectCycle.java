@@ -14,6 +14,25 @@ public class DetectCycle {
         }
     }
 
+    /*
+        method 2: use two pointer to detect a circle
+        if the jump to one same node, it means there is one circle inside
+
+        public static boolean detectCycle(LinkedListNode<Integer> head) {
+            LinkedListNode<Integer> p1 = head;
+            LinkedListNode<Integer> p2 = head;
+
+            while (p1 != null && p2 != null && p2.next != null) {
+                p1 = p1.next; //the p1 pointer will jump 1 step
+                p2 = p2.next.next; //the p2 pointer will jump 2 steps
+                // when the pointers become equal then there must be a loop
+                if (p1 == p2) {
+                    return true;
+                }
+            }
+        }
+    */
+
     public static <Integer> boolean detectCycle(LinkedListNode<Integer> head) {
         HashSet<Integer> store = new HashSet<>();
         while(head != null) {
