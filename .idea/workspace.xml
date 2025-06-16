@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eccf0924-b723-4f09-bcd6-5805a477ca78" name="Changes" comment="feat: update RemoveDuplicates.java with alternative method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2wb6MJI4ywHMJZ9Cfa3zQuMC4LK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.DeleteByValue.executor": "Run",
+    "Application.DetectCycle.executor": "Run",
+    "Application.FindFirstUnique.executor": "Run",
+    "Application.FindMaxSumSubArray.executor": "Run",
+    "Application.FindMiddle.executor": "Run",
+    "Application.FindProduct.executor": "Run",
+    "Application.FindSecondMaximum.executor": "Run",
+    "Application.FindTwoNumbersThatAddUpToK.executor": "Run",
+    "Application.GetLinkedListLength.executor": "Run",
+    "Application.InsertAtTail.executor": "Run",
+    "Application.MergeTwoSortedArrays.executor": "Run",
+    "Application.Rearrange.executor": "Debug",
+    "Application.RearrangeArray.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Debug",
+    "Application.ReverseLinkedList.executor": "Run",
+    "Application.RightRotate.executor": "Debug",
+    "Application.SearchNode.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.RemoveDuplicates">
+    <configuration name="DetectCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.DetectCycle" />
+      <module name="exerciseForEducative" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.FindMiddle" />
+      <module name="exerciseForEducative" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetLinkedListLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.GetLinkedListLength" />
+      <module name="exerciseForEducative" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.RemoveDuplicates" />
+      <module name="exerciseForEducative" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.ReverseLinkedList" />
+      <module name="exerciseForEducative" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.FindMiddle" />
+        <item itemvalue="Application.DetectCycle" />
+        <item itemvalue="Application.ReverseLinkedList" />
+        <item itemvalue="Application.GetLinkedListLength" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eccf0924-b723-4f09-bcd6-5805a477ca78" name="Changes" comment="" />
+      <created>1746297879782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746297879782</updated>
+    </task>
+    <task id="LOCAL-00001" summary="feat: add a file">
+      <option name="closed" value="true" />
+      <created>1746302157451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746302157451</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add a file">
+      <option name="closed" value="true" />
+      <created>1746302667899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746302667899</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add a file">
+      <option name="closed" value="true" />
+      <created>1746302855022</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746302855022</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: fixed findTwoNumbers">
+      <option name="closed" value="true" />
+      <created>1746820830385</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746820830385</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add FindProduct.java">
+      <option name="closed" value="true" />
+      <created>1746892605249</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746892605249</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add FindMinimumValue.java">
+      <option name="closed" value="true" />
+      <created>1747084429088</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747084429088</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add FindFirstUnique.java">
+      <option name="closed" value="true" />
+      <created>1747087260449</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747087260449</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add FindSecondMaximum.java">
+      <option name="closed" value="true" />
+      <created>1747406265400</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747406265400</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add RightRotate.java">
+      <option name="closed" value="true" />
+      <created>1747409405557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747409405557</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: add Rearrange.java">
+      <option name="closed" value="true" />
+      <created>1747495145731</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747495145731</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add RearrangeArray.java">
+      <option name="closed" value="true" />
+      <created>1747506370873</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747506370873</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: need check the end point more carefully">
+      <option name="closed" value="true" />
+      <created>1747511282009</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747511282009</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: add a new folder">
+      <option name="closed" value="true" />
+      <created>1747836516243</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1747836516243</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: add InsertAtTail.java">
+      <option name="closed" value="true" />
+      <created>1748526770362</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1748526770362</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: add SearchNode.java">
+      <option name="closed" value="true" />
+      <created>1748634840721</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1748634840721</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: add more method for the current algorithm">
+      <option name="closed" value="true" />
+      <created>1748635026400</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1748635026400</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: add DeleteByValue.java">
+      <option name="closed" value="true" />
+      <created>1748959119795</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1748959119795</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: update DeleteByValue.java with sample answer">
+      <option name="closed" value="true" />
+      <created>1749043579302</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1749043579302</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: add GetLinkedListLength.java">
+      <option name="closed" value="true" />
+      <created>1749044739042</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1749044739042</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: add ReverseLinkedList.java">
+      <option name="closed" value="true" />
+      <created>1749915987831</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1749915987831</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: add DetectCycle.java">
+      <option name="closed" value="true" />
+      <created>1749930187353</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1749930187353</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: update DetectCycle.java with another method">
+      <option name="closed" value="true" />
+      <created>1749930518588</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1749930518588</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: add FindMiddle.java">
+      <option name="closed" value="true" />
+      <created>1749934770082</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1749934770082</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: update FindMiddle.java">
+      <option name="closed" value="true" />
+      <created>1749934907911</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1749934907911</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: update RemoveDuplicates.java">
+      <option name="closed" value="true" />
+      <created>1750085632708</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1750085632708</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: update RemoveDuplicates.java with alternative method">
+      <option name="closed" value="true" />
+      <created>1750086898786</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1750086898786</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: add a file" />
+    <MESSAGE value="feat: fixed findTwoNumbers" />
+    <MESSAGE value="feat: add FindProduct.java" />
+    <MESSAGE value="feat: add FindMinimumValue.java" />
+    <MESSAGE value="feat: add FindFirstUnique.java" />
+    <MESSAGE value="feat: add FindSecondMaximum.java" />
+    <MESSAGE value="feat: add RightRotate.java" />
+    <MESSAGE value="feat: add Rearrange.java" />
+    <MESSAGE value="feat: add RearrangeArray.java" />
+    <MESSAGE value="feat: need check the end point more carefully" />
+    <MESSAGE value="feat: add a new folder" />
+    <MESSAGE value="feat: add InsertAtTail.java" />
+    <MESSAGE value="feat: add SearchNode.java" />
+    <MESSAGE value="feat: add more method for the current algorithm" />
+    <MESSAGE value="feat: add DeleteByValue.java" />
+    <MESSAGE value="feat: update DeleteByValue.java with sample answer" />
+    <MESSAGE value="feat: add GetLinkedListLength.java" />
+    <MESSAGE value="feat: add ReverseLinkedList.java" />
+    <MESSAGE value="feat: add DetectCycle.java" />
+    <MESSAGE value="feat: update DetectCycle.java with another method" />
+    <MESSAGE value="feat: add FindMiddle.java" />
+    <MESSAGE value="feat: update FindMiddle.java" />
+    <MESSAGE value="feat: update RemoveDuplicates.java" />
+    <MESSAGE value="feat: update RemoveDuplicates.java with alternative method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update RemoveDuplicates.java with alternative method" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/FindMaxSumSubArray.java</url>
+          <line>1</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/DeleteByValue.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/DeleteByValue.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/RemoveDuplicates.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/DetectCycle.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linkedlist/RemoveDuplicates.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
