@@ -1,5 +1,6 @@
 package stackQueues.FindCelebrity;
 
+// A celebrity knows no one, and everyone knows the celebrity
 public class FindCelebrity {
     public static int findCelebrity(int[][] matrix, int n) {
         MyStack<Integer> celebrityFilter = getIntegerMyStack(matrix, n);
