@@ -1,6 +1,6 @@
 package graphs.BfsTraversal;
 import java.util.*;
-
+import java.util.Queue;
 /*
     Given a directed graph represented as an adjacency list, graph,
     and an integer, source, which is the starting vertex number,
@@ -34,25 +34,27 @@ public class Solution {
         return res;
     }*/
 
+    // method 2
     public static List<Integer> bfsTraversal(Graph graph, int source) {
         EduLinkedList<Integer>[] g = graph.adjacencyList;
         List<Integer> result = new ArrayList<>();
         boolean[] visited = new boolean[g.length];
-        LinkedList<Integer> list = new LinkedList<>();
+        Queue<Integer> queue = new LinkedList<Integer>();
 
-        list.offer(source);
+        // add default source to list
+        queue.offer(source);
         visited[source] = true;
 
-        while (!list.isEmpty()) {
-            int initNode = list.poll();
+        while (!queue.isEmpty()) {
+            int initNode = queue.poll();
             result.add(initNode);
 
             EduLinkedList<Integer>.Node item = g[initNode].getHeadNode();
             while (item != null) {
-                int itemVal = item.data;
-                if (!visited[itemVal]) {
-                    visited[itemVal] = true;
-                    list.offer(itemVal);
+                int neighbor = item.data;
+                if (!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    queue.offer(neighbor);
                 }
                 item = item.nextNode;
             }
