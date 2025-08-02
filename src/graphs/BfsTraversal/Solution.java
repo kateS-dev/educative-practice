@@ -38,13 +38,13 @@ public class Solution {
         EduLinkedList<Integer>[] g = graph.adjacencyList;
         List<Integer> result = new ArrayList<>();
         boolean[] visited = new boolean[g.length];
-        LinkedList<Integer> queue = new LinkedList<>();
+        LinkedList<Integer> list = new LinkedList<>();
 
-        queue.offer(source);
+        list.offer(source);
         visited[source] = true;
 
-        while (!queue.isEmpty()) {
-            int initNode = queue.poll();
+        while (!list.isEmpty()) {
+            int initNode = list.poll();
             result.add(initNode);
 
             EduLinkedList<Integer>.Node item = g[initNode].getHeadNode();
@@ -52,8 +52,9 @@ public class Solution {
                 int itemVal = item.data;
                 if (!visited[itemVal]) {
                     visited[itemVal] = true;
-                    queue.offer(itemVal);
+                    list.offer(itemVal);
                 }
+                item = item.nextNode;
             }
         }
         return result;
