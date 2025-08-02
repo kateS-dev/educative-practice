@@ -1,13 +1,17 @@
 package graphs.BfsTraversal;
 import java.util.*;
 
-//Given a directed graph represented as an adjacency list, graph,
-// and an integer, source, which is the starting vertex number,
-// return an array of integers, result,
-// that contains the order of the graph’s breadth-first traversal starting from the source vertex.public
+/*
+    Given a directed graph represented as an adjacency list, graph,
+    and an integer, source, which is the starting vertex number,
+    return an array of integers, result,
+    that contains the order of the graph’s breadth-first traversal starting from the source vertex.public
+*/
 
 public class Solution {
-    public static List<Integer> bfsTraversal(Graph graph, int source) {
+   /*
+    method 1
+       public static List<Integer> bfsTraversal(Graph graph, int source) {
         EduLinkedList<Integer>[] g = graph.adjacencyList;
         List<Integer> res = new ArrayList<>();
         res.add(source);
@@ -28,6 +32,31 @@ public class Solution {
             init++;
         }
         return res;
+    }*/
+
+    public static List<Integer> bfsTraversal(Graph graph, int source) {
+        EduLinkedList<Integer>[] g = graph.adjacencyList;
+        List<Integer> result = new ArrayList<>();
+        boolean[] visited = new boolean[g.length];
+        LinkedList<Integer> queue = new LinkedList<>();
+
+        queue.offer(source);
+        visited[source] = true;
+
+        while (!queue.isEmpty()) {
+            int initNode = queue.poll();
+            result.add(initNode);
+
+            EduLinkedList<Integer>.Node item = g[initNode].getHeadNode();
+            while (item != null) {
+                int itemVal = item.data;
+                if (!visited[itemVal]) {
+                    visited[itemVal] = true;
+                    queue.offer(itemVal);
+                }
+            }
+        }
+        return result;
     }
 
     public static void main(String[] args) {
