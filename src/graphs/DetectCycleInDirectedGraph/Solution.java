@@ -1,5 +1,6 @@
 package graphs.DetectCycleInDirectedGraph;
 
+
 class Solution {
 /*
     key points for detecting a cycle in a directe graph
@@ -34,10 +35,13 @@ class Solution {
         while (current != null) {
             Integer neighbor = current.data;
             // never visit this neighbor before any DFS run
-            // check if a cycle exists starting from this neighbor
-            if (!visited[neighbor] && hasCycle(neighbor, visited, recStack, list)) {
-                return true;
-            // if the neighbor is visited, need to check is still in the recursion stack (this is a back edge)
+            if (!visited[neighbor]) {
+                // check if a cycle exists starting from this neighbor
+                if (hasCycle(neighbor, visited, recStack, list)) {
+                    return true;
+                }
+            // if the neighbor is visited,
+            // need to check is still in the recursion stack (this is a back edge)
             } else if (recStack[neighbor]) {
                 return true;
             }
