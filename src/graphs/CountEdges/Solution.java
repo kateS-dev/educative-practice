@@ -2,6 +2,14 @@ package graphs.CountEdges;
 
 import java.util.List;
 
+/*
+    method 2:
+
+    for the undirected graph
+    count the sum of the lengths of adjacency lists
+    dividing the final sum by 2 => ensure the edge is counted only once
+*/
+
 public class Solution {
     public static int countEdges(Graph graph) {
         int count = 0;
