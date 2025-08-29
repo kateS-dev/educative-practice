@@ -58,15 +58,6 @@ class Solution {
         return false;
     }
 
-    private static boolean checkVisitedTable(boolean[] visited) {
-        for (int i = 0; i < visited.length; i++) {
-            if (!visited[i]) {
-                return false;
-            }
-        }
-        return true;
-    }
-
     public static void main(String[] args) {
         Graph g = new Graph<>(5);
 
