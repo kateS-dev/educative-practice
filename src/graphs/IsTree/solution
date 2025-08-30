@@ -1,0 +1,16 @@
+To check if the graph is a valid tree,
+we start from the first node and move to adjacent nodes using a depth-first search.
+
+We mark visited nodes and look for cycles by checking if a node has been visited before.
+
+If we encounter a previously visited node that is not the parent, we have found a cycle,
+indicating the graph is not a tree. If the depth-first search started from the first node is complete,
+but some nodes remain unvisited, the graph is not connected, making it not a tree.
+
+If all nodes have been visited and no cycles are found, the graph is a valid tree.
+
+The steps are following below:
+* Initialize a visited list to keep track of nodes that will be visited during the traversal of the graph.
+* Starting from the first node, start traversing adjacent nodes in the graph.
+* While traversing the adjacent nodes in the graph, mark the current node as visited in the visited list.
+* Pick an adjacent node and check if the node has been visited before.
