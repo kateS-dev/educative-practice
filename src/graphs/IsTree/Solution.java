@@ -1,20 +1,17 @@
 package graphs.IsTree;
 
-// NOTE: 'Graph' has been created from the class 'Graph' in 'Graph.java'
-
-// class Graph => {int vertices, LinkedList<Integer> adjacencyList[]}
-// class LinkedList => {LinkedListNode head}
-// class LinkedListNode => {T data, LinkedListNode next}
-
 import java.util.Arrays;
+
+/*
+    directed-graph cycle detection logic cannot apply on undirected tree.
+    The back edge to the parent is incorrectly flagged as a cycle.
+*/
 
 class Solution {
     public static boolean isTree(Graph<Integer> graph) {
         int node = graph.vertices;
         boolean[] visited = new boolean[node];
-        boolean[] recStack = new boolean[node];
         Arrays.fill(visited, false);
-        Arrays.fill(recStack, false);
 
         // Start DFS from node 0
         /*
@@ -26,7 +23,7 @@ class Solution {
                 we will visit every vertex(Trees are connected → one DFS from 0 must visit everything.)
                 during the traversel, if there is a cycle, hasCycle will detect it(Trees are acyclic → cycle detection works during that same DFS.)
         */
-        if (hasCycle(0, graph.list, visited, recStack)) {
+        if (hasCycle(0, -1, graph.list, visited)) {
             return false;
         }
 
@@ -39,22 +36,22 @@ class Solution {
         return true;
     }
 
-    private static boolean hasCycle(int node, LinkedList<Integer>[] adj, boolean[] visited, boolean[] recStack) {
+    private static boolean hasCycle(int node, int parent, LinkedList<Integer>[] adj, boolean[] visited) {
         visited[node] = true;
-        recStack[node] = true;
         LinkedListNode<Integer> current = adj[node].head;
         while (current != null) {
             Integer neighbor = current.data;
             if (!visited[neighbor]) {
-                if (hasCycle(neighbor, adj, visited, recStack)) {
+                if (hasCycle(neighbor, node, adj, visited)) {
                     return true;
                 }
-            } else if (recStack[neighbor]) {
+            } else if (neighbor != parent) {
+                // visited neighbor and the neighbor is not the parent node(check parent node is to confirm the undirected graph)
+                // it means that circle here
                return true;
             }
             current = current.next;
         }
-        recStack[node] = false;
         return false;
     }
 
@@ -62,11 +59,11 @@ class Solution {
         Graph g = new Graph<>(5);
 
 //        [[0,1],[0,2],[0,3],[0,4],[3,4]] false
+//        [[0,1],[0,2],[0,3],[3,4]] true
 
         g.addEdge(0, 1);
         g.addEdge(0, 2);
         g.addEdge(0, 3);
-        g.addEdge(0, 4);
         g.addEdge(3, 4);
 
         boolean check = isTree(g);
