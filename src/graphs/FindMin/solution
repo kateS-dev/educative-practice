@@ -1,0 +1,19 @@
+Steps:
+
+1.Initialize a visited array with a length equal to the number of nodes in the graph. This array is used to track which nodes have been visited.
+
+2.Initialize a distance array with a length equal to the number of nodes in the graph. This array is used to record the distance of each node from src node, in terms of the number of edges.
+
+3. Add src node to an empty queue and mark it as visited in the visited array. Set its distance in the distance array to 0.
+
+4. While the queue is not empty, perform the following steps:
+
+    Dequeue a node from the queue.
+    For each unvisited neighbor of this node, do the following:
+        Mark the neighbor as visited in the visited array.
+        Add the neighbor to the queue.
+        Update the neighbor’s distance in the distance array to be the dequeued node’s distance plus one (this represents one edge away from the dequeued node).
+
+5. Continue the process until the queue is empty or the dest node has been visited.
+
+6. Return the distance of the dest node from the src node as recorded in the distance array. If the dest node was never visited (indicating no path exists), return -1.
